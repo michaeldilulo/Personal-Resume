@@ -39,7 +39,7 @@ a.navbar-brand {
 @media(max-width: 576px) {
 
 .personal-resume-image {
-    height: 43vh;
+    height: 50vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -93,5 +93,12 @@ a.navbar-brand {
     font-size: 45px;
     margin-top: 0.25em;
     }
+.personal-resume-heading-about {
+    font-size: 38px;
+    color: #42313A;
+}
+.personal-resume-text-about {
+    font-size: 20px;
+}
 }
 
