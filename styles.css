@@ -64,6 +64,23 @@ a.navbar-brand {
     font-size: 20px;
     margin-top: 0.25em;
 }
+.personal-resume-about-heading {
+    margin-top: 50px;
+}
+h3.personal-resume-about-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+.col-md-3.d-flex.justify-content-center {
+    display: flex;
+    align-items: center;
+}
+.personal-resume-about-details {
+    display: flex;
+    justify-content: center;
+}
 }
 
 @media(min-width: 1000px) {
@@ -95,10 +112,20 @@ a.navbar-brand {
     }
 .personal-resume-heading-about {
     font-size: 38px;
-    color: #42313A;
+    color: #6C2D2C;
 }
 .personal-resume-text-about {
     font-size: 20px;
 }
 }
 
+/* About */
+
+.personal-resume-about-picture {
+    max-width: 80%;
+    max-height: 70%;
+    border-radius: 50%;
+}
+.personal-resume-about-heading {
+    color: #6C2D2C;
+}
