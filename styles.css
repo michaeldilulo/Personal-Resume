@@ -166,3 +166,8 @@ h2.personal-resume-heading-about.mt-5.personal-resume-education-heading {
 h2.personal-resume-heading-about.mt-5.personal-resume-education-heading {
     color: #6C2D2C;
 }
+
+/* Horizontal Rule */
+hr {
+    border: 1px solid #42313A;
+}
