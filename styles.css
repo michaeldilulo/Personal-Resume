@@ -11,7 +11,7 @@ body {
 a.navbar-brand {
     color: #fff;
 }
-.nav-link:hover {
+.nav-link.mr-3.ml-3:hover {
     background-color: #F1DCC9;
     border-radius: 5px;
     color: #6C2D2C;
@@ -81,6 +81,21 @@ h3.personal-resume-about-heading {
     display: flex;
     justify-content: center;
 }
+.personal-resume-experience-quote {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+h2.personal-resume-heading-about.personal-resume-heading-experience {
+    color: #6C2D2C;
+}
+h2.personal-resume-heading-about.mt-5.personal-resume-education-heading {
+    color: #6C2D2C;
+    margin-left: 80px;
+}
+.row.pt-5.d-flex.justify-content-center {
+    margin-left: 10px;
+}
 }
 
 @media(min-width: 1000px) {
@@ -117,6 +132,7 @@ h3.personal-resume-about-heading {
 .personal-resume-text-about {
     font-size: 20px;
 }
+
 }
 
 /* About */
@@ -127,5 +143,26 @@ h3.personal-resume-about-heading {
     border-radius: 50%;
 }
 .personal-resume-about-heading {
+    color: #6C2D2C;
+}
+
+/* Experiences */
+
+.personal-resume-heading-experience {
+    margin-top: 70px;
+}
+
+.personal-resume-experience-quote {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #42313A;
+}
+
+.personal-portfolio-experience-container {
+    background-color: #F1DCC9;
+}
+
+h2.personal-resume-heading-about.mt-5.personal-resume-education-heading {
     color: #6C2D2C;
 }
