@@ -101,6 +101,10 @@ h2.personal-resume-heading-about.mt-5.personal-resume-education-heading {
     margin-left: 10px;
 }
 
+.margin-adjustment-mobile {
+    margin-right: 50px;
+}
+
 }
 
 @media(min-width: 1000px) {
